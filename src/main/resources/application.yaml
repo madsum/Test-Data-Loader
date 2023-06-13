@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: dcsa_db_owner
+    url: jdbc:postgresql://localhost/dcsa_openapi?currentSchema=dcsa_im_v3_0
+    password: 9c072fe8-c59c-11ea-b8d1-7b6577e9f3f5
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: 'true'
+    hibernate:
+      ddl-auto: none
+  servlet:
+    multipart:
+      max-request-size: 128KB
+      max-file-size: 128KB
+  upload_config_path: config/uploaded
+server:
+  port: '9001'
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            mvc:
+              method:
+                annotation: TRACE

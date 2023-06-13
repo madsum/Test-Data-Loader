@@ -1,0 +1,26 @@
+version: '3.5'
+services:
+    web:
+        environment:
+            - DB_HOSTNAME=db
+            - AUTH0_ENABLED=true
+            - DB_HOST_IP=192.168.68.108 # change this to host IP
+          #  - JAVA_TOOL_OPTIONS="-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
+        container_name: dcsa_test_data_loader
+        build:.
+        ports:
+            - 9001:9001
+           # - 5005:5005
+        logging:
+            options:
+                max-file: '10'
+                max-size: 200k
+
+#    db:
+#        container_name: dcsa_db
+#        environment:
+#            POSTGRES_PASSWORD: "change_this_password"
+#        build: ./DCSA-Information-Model/datamodel/
+#        ports:
+#           - 5432:5432
+

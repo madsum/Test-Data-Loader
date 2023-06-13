@@ -1,0 +1,4 @@
+carrier_booking_reference,receipt_delivery_type_at_origin,receipt_delivery_type_at_destination,cargo_movement_type_at_origin,cargo_movement_type_at_destination,booking_request_datetime,service_contract,commodity_type,cargo_gross_weight,cargo_gross_weight_unit
+BR1239719971, CY , CFS , FCL , LCL ,DATE '2020-07-07' , You will surrender ,13233.4, KGM , Donno 
+BR1239719972, CY , CFS , FCL , LCL ,DATE '2020-07-07' , You will surrender ,13233.4, KGM , Donno 
+BR1239719973 ,CY , CFS , FCL , LCL ,DATE '2020-07-07' , You will surrender ,13233.4, KGM , Donno 

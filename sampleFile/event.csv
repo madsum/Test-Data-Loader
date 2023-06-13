@@ -1,0 +1,4 @@
+eventID, event_classifier_code, event_date_time
+84db923d-2a19-4eb0-beb5-446c1ec57d30, ACT, TIMESTAMP '2022-10-19 10:23:54'
+84db923d-2a19-4eb0-beb5-446c1ec57d31, EST, TIMESTAMP '2022-11-19 10:23:54'
+84db923d-2a19-4eb0-beb5-446c1ec57d32, ACT, TIMESTAMP '2022-12-19 11:11:00'

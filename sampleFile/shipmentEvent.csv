@@ -1,0 +1,2 @@
+eventID, eventClassifierCode, eventCreatedDateTime, eventDateTime, documentID, shipmentEventTypeCode, documentTypeCode, reason   
+"", ACT, current_timestamp, TIMESTAMP '2022-06-27 10:23:54',  "", RECE, BKG, Csv shipment event  

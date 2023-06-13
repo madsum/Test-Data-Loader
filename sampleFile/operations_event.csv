@@ -1,0 +1,2 @@
+event_id,event_classifier_code, event_created_date_time,event_date_time,operations_event_type_code,transport_call_id,publisher, publisher_role,port_call_service_type_code,event_location,facility_type_code,delay_reason_code,vessel_position,remark
+b785317a-2340-4db7-8fb3-c8dfb1edfa60,ACT,current_timestamp,TIMESTAMP '2022/06/23 21:02:44',DEPA,286c605e-4043-11eb-9c0b-7b4196cf71fa,be5bc290-7bac-48bb-a211-f3fa5a3ab3ae,TR,BUNK,06aca2f6-f1d0-48f8-ba46-9a3480adfd23,POTE,ANA,770b7624-403d-11eb-b44b-d3f4ad185386,This is example remark
